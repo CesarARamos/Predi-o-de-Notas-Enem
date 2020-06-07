@@ -425,8 +425,8 @@ write.csv(answer,
           row.names = FALSE,
           quote=FALSE)
 ```
-#Finalmente estou apto a prosseguir em mais uma jornada de estudo e dedicação intensa!! 
-</br>#DATA SCIENCE é fascinante!!!
+## Finalmente estou apto a prosseguir em mais uma jornada de estudo e dedicação intensa!! 
+# DATA SCIENCE é fascinante!!!
 
 ![Screenshot](codenation.jpg)
 
