@@ -132,7 +132,7 @@ str(dados_treino)
 ##   [list output truncated]
 
 ```
-  Após o estudo do dicionário de dados de dados concedido, acredito particularmente que algumas variáveis devem ter maior correlação com a variável TARGET "NU_NOTA_MT", porém é necessário verificar seus índices para a constatação, portanto:
+  Após o estudo do dicionário de dados concedido, acredito particularmente que algumas variáveis devem ter maior correlação com a variável TARGET "NU_NOTA_MT", porém é necessário verificar seus índices para a constatação, portanto:
 ```r
 # Feature selection
 cols <- c("NU_NOTA_CN",
