@@ -152,7 +152,7 @@ ggcorr(dados_treino_nm[, cols], label=T)
 pairs.panels(dados_treino_nm[, cols])
 ```
 ![Screenshot](corr.jpeg)
-</br>![Screenshot](panel.jpeg)
+![Screenshot](panel.jpeg)
 
 ```r
 # Verificação dos valores NA
