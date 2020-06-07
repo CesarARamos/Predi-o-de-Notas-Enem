@@ -1,4 +1,4 @@
-<header> Desafio em R
+## Desafio em R
 
   O contexto do desafio gira em torno dos resultados do ENEM 2016 (disponíveis no arquivo train.csv) fornecidos pela Covenation, um dicionário de dados em EXCEL com as informações sobre cada feature e outro arquivo CSV utilizado para predição dos valores da variável target. 
   </br>O projeto contava com uma base de dados de 167 variáveis e mais de 13 mil observações cujo objetivo final era a previsão da nota de matemática de um aluno, sendo que obrigatoriamente o algoritmo deveria ter uma eficácia maior que 90%.
