@@ -183,7 +183,7 @@ missmap(dados_treino_nm, main = "Valores Missing Observados")
 write.csv(dados_treino_nm, "dados_treino_nm.csv", sep = ";", dec = ",",row.names = FALSE)
 ```
 
-#          Criação do Modelo de Regressão Linear - Treino               
+##          Criação do Modelo de Regressão Linear - Treino               
 
 Neste projeto utilizei 2 modelos de machine learning para a predição e testei os resultados, o que já me pareceu satisfatório com o Random Forest atingindo 91,5% de acurácia.
 
@@ -241,7 +241,7 @@ saveRDS(model2, file = "lm_model.rds")
 modelo <- readRDS("lm_model.rds")
 ```
 
-# Carregando o Dataset de Teste para Predição 
+## Carregando o Dataset de Teste para Predição 
 
 ```r
 # carregando CSV de teste
@@ -401,7 +401,7 @@ missmap(dados_teste_nm, main = "Valores Missing Observado4")
 answer <- data.frame(dados_teste$NU_INSCRICAO)
 ```
 
-#   Realizando a Predição Utilizando o DF de Teste  
+##  Realizando a Predição Utilizando o DF de Teste  
 
 ```r
 pred <- predict(model2, newdata = dados_teste_nm)
@@ -417,8 +417,7 @@ colnames(answer)[2] <- 'NU_NOTA_MT'
 # Substituindo valores negativos por zero
 answer$NU_NOTA_MT <- ifelse(answer$NU_NOTA_MT < 0, 0, answer$NU_NOTA_MT)
 
-View(answer)
-```r
+
 #gerando CSV 
 # Gerando o CSV com as respostas preditas
 write.csv(answer,
@@ -426,4 +425,8 @@ write.csv(answer,
           row.names = FALSE,
           quote=FALSE)
 ```
-```
+#Finalmente estou apto a prosseguir em mais uma jornada de estudo e dedicação intensa!! 
+</br>#DATA SCIENCE é fascinante!!!
+
+![Screenshot](codenation.jpeg)
+
