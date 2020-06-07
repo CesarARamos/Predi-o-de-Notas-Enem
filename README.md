@@ -428,5 +428,5 @@ write.csv(answer,
 #Finalmente estou apto a prosseguir em mais uma jornada de estudo e dedicação intensa!! 
 </br>#DATA SCIENCE é fascinante!!!
 
-![Screenshot](codenation.jpeg)
+![Screenshot](codenation.jpg)
 
