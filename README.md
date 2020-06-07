@@ -1,8 +1,10 @@
 ## Desafio em R
 
   O contexto do desafio gira em torno dos resultados do ENEM 2016 (disponíveis no arquivo train.csv) fornecidos pela Covenation, um dicionário de dados em EXCEL com as informações sobre cada feature e outro arquivo CSV utilizado para predição dos valores da variável target. 
-  </br>O projeto contava com uma base de dados de 167 variáveis e mais de 13 mil observações cujo objetivo final era a previsão da nota de matemática de um aluno, sendo que obrigatoriamente o algoritmo deveria ter uma eficácia maior que 90%.
-</br>Com isso, vamos ao que interessa:
+  
+  O projeto contava com uma base de dados de 167 variáveis e mais de 13 mil observações cujo objetivo final era a previsão da nota de matemática de um aluno, sendo que obrigatoriamente o algoritmo deveria ter uma eficácia maior que 90%.
+Com isso, vamos ao que interessa:
+
 ```r
 # Definindo a pasta de trabalho
 setwd("~/codenation")
@@ -130,7 +132,7 @@ str(dados_treino)
 ##   [list output truncated]
 
 ```
-Após o estudo do dicionário de dados de dados concedido, acredito particularmente que algumas variáveis devem ter maior correlação com a variável TARGET "NU_NOTA_MT", porém é necessário verificar seus índices para a constatação, portanto:
+  Após o estudo do dicionário de dados de dados concedido, acredito particularmente que algumas variáveis devem ter maior correlação com a variável TARGET "NU_NOTA_MT", porém é necessário verificar seus índices para a constatação, portanto:
 ```r
 # Feature selection
 cols <- c("NU_NOTA_CN",
@@ -185,7 +187,7 @@ write.csv(dados_treino_nm, "dados_treino_nm.csv", sep = ";", dec = ",",row.names
 
 ##          Criação do Modelo de Regressão Linear - Treino               
 
-Neste projeto utilizei 2 modelos de machine learning para a predição e testei os resultados, o que já me pareceu satisfatório com o Random Forest atingindo 91,5% de acurácia.
+  Neste projeto utilizei 2 modelos de machine learning para a predição e testei os resultados, o que já me pareceu satisfatório com o Random Forest atingindo 91,5% de acurácia.
 
 ```r
 #1° modelo usando regressao linear simples
